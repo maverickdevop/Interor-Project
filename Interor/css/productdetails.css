@@ -1,0 +1,145 @@
+/* CSS for Product-Detale Styles*/
+
+.header-catalog-productdetails {
+    background-color: #ffffff;
+}
+
+#product-menu {
+    background: #f4f4f4;
+    position: relative;
+    overflow: hidden;
+    height: 70px;
+    margin-top: 29px;
+    margin-bottom: 72px;
+}
+.detail-product-menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.detmenu-list {
+    list-style: none;
+    padding-top: 26px;
+}
+
+.detmenu-link {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 25px;
+}
+
+.detmenu-link-active {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;    
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 25px;  
+}
+
+.detmenu-link:hover{
+    color: #212121; 
+}
+
+.description-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item {
+    width: calc(1/2*100% - (1 - 1/2)*56px);
+}
+
+.controlwrap {
+    padding-right: 10px;
+}
+
+.controlwrap:last-child {
+    padding-right: 0px;
+}
+
+.sliderblockchair {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 28px;
+}
+
+.chairinfo-h2 {
+    padding-top: 47px;
+    padding-left: 147px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;  
+}
+
+.chairhotdeal {
+    padding-top: 10px;
+    color: #e53935;
+    letter-spacing: 1.8px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48.02px;
+    text-transform: uppercase;
+    padding-left: 208px;
+}
+
+.price {
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #212121;
+    font-weight: 300;
+}
+
+.sym{
+    font-size: 48px;
+    color: #212121;
+    font-weight: 300;
+}
+
+span {
+  display: inline;
+}
+
+.pricein {
+    padding-left: 140px;
+}
+
+.chairdesc {
+    padding-top: 49px;
+    padding-left: 5px;
+    padding-right: 6px;
+    width: 499px;
+    height: 244px;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+}
+
+.button2 {
+    margin-top: 31px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 35px;
+    background-color: #f44336;
+    width: 510px;
+    height: 71px;
+    line-height: 71px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 9px;
+}
+
+.button2:hover {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    filter: drop-shadow(0px 2px 5px #212121);
+}

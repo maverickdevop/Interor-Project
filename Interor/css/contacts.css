@@ -1,0 +1,76 @@
+/* Contacts Style */
+
+.header-catalog-contacts {
+    background-color: #f5f5f5;
+}
+
+.padding-site-catalog {
+    padding-left: 98px;
+    padding-right: 167px;
+}
+
+.contacts-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    padding-top: 171px;
+    padding-bottom: 56px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 121px;
+    padding-top: 71px;
+}
+
+.column-california {
+    border: 1px solid #9c9c9c;
+    width: 370px;
+    height: 370px;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;  
+}
+
+
+.fa-map-marker-alt {
+    color: #212121;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+    padding-bottom: 34px;
+}
+
+.california-h2 {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 23px;
+}
+
+.info {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.phone, .mail, .adress {
+    color: #212121;
+    font-weight: 700;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 15px;
+}

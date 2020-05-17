@@ -1,0 +1,92 @@
+/* CSS for Products Style*/
+
+.productsrange-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    padding-top: 168px;
+    padding-bottom: 44px;
+}
+
+.product-menu {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 72px;
+    padding-top: 71px;
+    padding-left: 105px;
+}
+    
+.product-menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.product-menu-link:hover {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    border-bottom: 3px solid #212121;
+    text-decoration: none;
+    padding: 17px 13px;
+}
+
+.product-menu-link {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    padding: 21px 13px;
+    text-decoration: none;
+}
+
+.product-menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    border-bottom: 3px solid #212121;
+    text-decoration: none;
+    padding: 19px 30px 20px 7px;
+}
+
+.underline {
+    border-bottom: 1px solid #6c6c6c;
+    padding: 19px 13px;
+}
+
+.products-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 71px;
+    padding-top: 50px;
+}
+
+.products-row img:hover {
+    outline: 1px solid #6c6c6c;
+}
+
+.refresh-button a {
+    text-decoration: none;
+    color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.refresh-button a:hover{
+    color: #6c6c6c;
+    transform: rotateY(180deg);
+}
+
+.refresh-button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 140px;
+}
